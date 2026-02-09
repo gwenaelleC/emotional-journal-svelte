@@ -7,8 +7,8 @@
 	import { Input } from "$lib/components/ui/input/index.js";
 	import * as Card from "$lib/components/ui/card/index.js";
 
-	let username = "";
-	let password = "";
+	let username = "test@mail.com";
+	let password = "test";
 	let error: string | null = null;
 
 	async function handleLogin() {

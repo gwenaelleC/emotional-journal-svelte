@@ -1,38 +1,18 @@
-# sv
+# emotional-journal-svelte
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Goals
+  The goal of this project is to play around with svelte, after having spent years on React.
+  The project in inself is a follow up of emotions. Allowing to take a break to ask oneself: 
+  What am feeling right now?
 
-## Creating a project
+  This part is the front-end of this project
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Requirements
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+  To install packages:
+    npm install
+  library used:
+    https://www.shadcn-svelte.com/
+  
+  The back-end is expected to run on port 8000, you can change that locally in .env
+  by setting VITE_API_BASE_URL

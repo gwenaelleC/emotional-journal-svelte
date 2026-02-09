@@ -2,8 +2,10 @@
     import { Button } from "$lib/components/ui/button";
     import { Input } from "$lib/components/ui/input/index.js";
     import * as Card from "$lib/components/ui/card/index";
-    import { Mood, postEmotion, type EmotionEntryProps } from "$lib/api/emotionApi";
     import Label from "$lib/components/ui/label/label.svelte";
+    import { Mood } from "../../models/Mood";
+    import type { EmotionEntryProps } from "../../models/EmotionEntryProps";
+    import { postEmotion } from "$lib/api/emotionApi";
 
     let content = "content";
     let intensity = 1;

@@ -25,6 +25,8 @@
     <div class="text-lg font-semibold">Emotional Journal</div>
     <nav class="space-x-4">
       {#if authed}
+        <a class="text-sm text-blue-600 hover:underline" href="/calendar">Calendar</a>
+        <a class="text-sm text-blue-600 hover:underline" href="/emotionList">Emotions</a>
         <a class="text-sm text-blue-600 hover:underline" href="/emotionForm">Emotion</a>
         <span class="text-sm text-gray-700">Logged in</span>
         {#if currentToken}
